@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7AFF731C23DD870006B3D9 /* MTG Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AFF721C23DD870006B3D9 /* MTG Calculator.swift */; };
+		3FC8CCC01C0F50BA003DAB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8CCBF1C0F50BA003DAB8E /* AppDelegate.swift */; };
+		3FC8CCC21C0F50BA003DAB8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8CCC11C0F50BA003DAB8E /* ViewController.swift */; };
+		3FC8CCC51C0F50BA003DAB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8CCC31C0F50BA003DAB8E /* Main.storyboard */; };
+		3FC8CCC71C0F50BA003DAB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8CCC61C0F50BA003DAB8E /* Assets.xcassets */; };
+		3FC8CCCA1C0F50BA003DAB8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8CCC81C0F50BA003DAB8E /* LaunchScreen.storyboard */; };
+		3FC8CCD51C0F50BA003DAB8E /* TCG_Life_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8CCD41C0F50BA003DAB8E /* TCG_Life_CalculatorTests.swift */; };
+		3FC8CCE01C0F50BA003DAB8E /* TCG_Life_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8CCDF1C0F50BA003DAB8E /* TCG_Life_CalculatorUITests.swift */; };
+		3FC8CCF01C14ABAB003DAB8E /* YGO Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8CCEF1C14ABAB003DAB8E /* YGO Calculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FC8CCD11C0F50BA003DAB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC8CCB41C0F50BA003DAB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC8CCBB1C0F50BA003DAB8E;
+			remoteInfo = "TCG Life Calculator";
+		};
+		3FC8CCDC1C0F50BA003DAB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC8CCB41C0F50BA003DAB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC8CCBB1C0F50BA003DAB8E;
+			remoteInfo = "TCG Life Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F7AFF721C23DD870006B3D9 /* MTG Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MTG Calculator.swift"; sourceTree = "<group>"; };
+		3FC8CCBC1C0F50BA003DAB8E /* TCG Life Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCG Life Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC8CCBF1C0F50BA003DAB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC8CCC11C0F50BA003DAB8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FC8CCC41C0F50BA003DAB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC8CCC61C0F50BA003DAB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC8CCC91C0F50BA003DAB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC8CCCB1C0F50BA003DAB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC8CCD01C0F50BA003DAB8E /* TCG Life CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCG Life CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC8CCD41C0F50BA003DAB8E /* TCG_Life_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCG_Life_CalculatorTests.swift; sourceTree = "<group>"; };
+		3FC8CCD61C0F50BA003DAB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC8CCDB1C0F50BA003DAB8E /* TCG Life CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCG Life CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC8CCDF1C0F50BA003DAB8E /* TCG_Life_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCG_Life_CalculatorUITests.swift; sourceTree = "<group>"; };
+		3FC8CCE11C0F50BA003DAB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC8CCEF1C14ABAB003DAB8E /* YGO Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YGO Calculator.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC8CCB91C0F50BA003DAB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8CCCD1C0F50BA003DAB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8CCD81C0F50BA003DAB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC8CCB31C0F50BA003DAB8E = {
+			isa = PBXGroup;
+			children = (
+				3FC8CCEF1C14ABAB003DAB8E /* YGO Calculator.swift */,
+				3F7AFF721C23DD870006B3D9 /* MTG Calculator.swift */,
+				3FC8CCBE1C0F50BA003DAB8E /* TCG Life Calculator */,
+				3FC8CCD31C0F50BA003DAB8E /* TCG Life CalculatorTests */,
+				3FC8CCDE1C0F50BA003DAB8E /* TCG Life CalculatorUITests */,
+				3FC8CCBD1C0F50BA003DAB8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC8CCBD1C0F50BA003DAB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8CCBC1C0F50BA003DAB8E /* TCG Life Calculator.app */,
+				3FC8CCD01C0F50BA003DAB8E /* TCG Life CalculatorTests.xctest */,
+				3FC8CCDB1C0F50BA003DAB8E /* TCG Life CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC8CCBE1C0F50BA003DAB8E /* TCG Life Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8CCBF1C0F50BA003DAB8E /* AppDelegate.swift */,
+				3FC8CCC11C0F50BA003DAB8E /* ViewController.swift */,
+				3FC8CCC31C0F50BA003DAB8E /* Main.storyboard */,
+				3FC8CCC61C0F50BA003DAB8E /* Assets.xcassets */,
+				3FC8CCC81C0F50BA003DAB8E /* LaunchScreen.storyboard */,
+				3FC8CCCB1C0F50BA003DAB8E /* Info.plist */,
+			);
+			path = "TCG Life Calculator";
+			sourceTree = "<group>";
+		};
+		3FC8CCD31C0F50BA003DAB8E /* TCG Life CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8CCD41C0F50BA003DAB8E /* TCG_Life_CalculatorTests.swift */,
+				3FC8CCD61C0F50BA003DAB8E /* Info.plist */,
+			);
+			path = "TCG Life CalculatorTests";
+			sourceTree = "<group>";
+		};
+		3FC8CCDE1C0F50BA003DAB8E /* TCG Life CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8CCDF1C0F50BA003DAB8E /* TCG_Life_CalculatorUITests.swift */,
+				3FC8CCE11C0F50BA003DAB8E /* Info.plist */,
+			);
+			path = "TCG Life CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC8CCBB1C0F50BA003DAB8E /* TCG Life Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC8CCE41C0F50BA003DAB8E /* Build configuration list for PBXNativeTarget "TCG Life Calculator" */;
+			buildPhases = (
+				3FC8CCB81C0F50BA003DAB8E /* Sources */,
+				3FC8CCB91C0F50BA003DAB8E /* Frameworks */,
+				3FC8CCBA1C0F50BA003DAB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCG Life Calculator";
+			productName = "TCG Life Calculator";
+			productReference = 3FC8CCBC1C0F50BA003DAB8E /* TCG Life Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FC8CCCF1C0F50BA003DAB8E /* TCG Life CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC8CCE71C0F50BA003DAB8E /* Build configuration list for PBXNativeTarget "TCG Life CalculatorTests" */;
+			buildPhases = (
+				3FC8CCCC1C0F50BA003DAB8E /* Sources */,
+				3FC8CCCD1C0F50BA003DAB8E /* Frameworks */,
+				3FC8CCCE1C0F50BA003DAB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC8CCD21C0F50BA003DAB8E /* PBXTargetDependency */,
+			);
+			name = "TCG Life CalculatorTests";
+			productName = "TCG Life CalculatorTests";
+			productReference = 3FC8CCD01C0F50BA003DAB8E /* TCG Life CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FC8CCDA1C0F50BA003DAB8E /* TCG Life CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC8CCEA1C0F50BA003DAB8E /* Build configuration list for PBXNativeTarget "TCG Life CalculatorUITests" */;
+			buildPhases = (
+				3FC8CCD71C0F50BA003DAB8E /* Sources */,
+				3FC8CCD81C0F50BA003DAB8E /* Frameworks */,
+				3FC8CCD91C0F50BA003DAB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC8CCDD1C0F50BA003DAB8E /* PBXTargetDependency */,
+			);
+			name = "TCG Life CalculatorUITests";
+			productName = "TCG Life CalculatorUITests";
+			productReference = 3FC8CCDB1C0F50BA003DAB8E /* TCG Life CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC8CCB41C0F50BA003DAB8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mphipps;
+				TargetAttributes = {
+					3FC8CCBB1C0F50BA003DAB8E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					3FC8CCCF1C0F50BA003DAB8E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3FC8CCBB1C0F50BA003DAB8E;
+					};
+					3FC8CCDA1C0F50BA003DAB8E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3FC8CCBB1C0F50BA003DAB8E;
+					};
+				};
+			};
+			buildConfigurationList = 3FC8CCB71C0F50BA003DAB8E /* Build configuration list for PBXProject "TCG Life Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC8CCB31C0F50BA003DAB8E;
+			productRefGroup = 3FC8CCBD1C0F50BA003DAB8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC8CCBB1C0F50BA003DAB8E /* TCG Life Calculator */,
+				3FC8CCCF1C0F50BA003DAB8E /* TCG Life CalculatorTests */,
+				3FC8CCDA1C0F50BA003DAB8E /* TCG Life CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC8CCBA1C0F50BA003DAB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC8CCCA1C0F50BA003DAB8E /* LaunchScreen.storyboard in Resources */,
+				3FC8CCC71C0F50BA003DAB8E /* Assets.xcassets in Resources */,
+				3FC8CCC51C0F50BA003DAB8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8CCCE1C0F50BA003DAB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8CCD91C0F50BA003DAB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC8CCB81C0F50BA003DAB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC8CCC21C0F50BA003DAB8E /* ViewController.swift in Sources */,
+				3FC8CCF01C14ABAB003DAB8E /* YGO Calculator.swift in Sources */,
+				3FC8CCC01C0F50BA003DAB8E /* AppDelegate.swift in Sources */,
+				3F7AFF731C23DD870006B3D9 /* MTG Calculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8CCCC1C0F50BA003DAB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC8CCD51C0F50BA003DAB8E /* TCG_Life_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC8CCD71C0F50BA003DAB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC8CCE01C0F50BA003DAB8E /* TCG_Life_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC8CCD21C0F50BA003DAB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC8CCBB1C0F50BA003DAB8E /* TCG Life Calculator */;
+			targetProxy = 3FC8CCD11C0F50BA003DAB8E /* PBXContainerItemProxy */;
+		};
+		3FC8CCDD1C0F50BA003DAB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC8CCBB1C0F50BA003DAB8E /* TCG Life Calculator */;
+			targetProxy = 3FC8CCDC1C0F50BA003DAB8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FC8CCC31C0F50BA003DAB8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC8CCC41C0F50BA003DAB8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC8CCC81C0F50BA003DAB8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC8CCC91C0F50BA003DAB8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC8CCE21C0F50BA003DAB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC8CCE31C0F50BA003DAB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC8CCE51C0F50BA003DAB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TCG Life Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yes.TCG-Life-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FC8CCE61C0F50BA003DAB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TCG Life Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yes.TCG-Life-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FC8CCE81C0F50BA003DAB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TCG Life CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yes.TCG-Life-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCG Life Calculator.app/TCG Life Calculator";
+			};
+			name = Debug;
+		};
+		3FC8CCE91C0F50BA003DAB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TCG Life CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yes.TCG-Life-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCG Life Calculator.app/TCG Life Calculator";
+			};
+			name = Release;
+		};
+		3FC8CCEB1C0F50BA003DAB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TCG Life CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yes.TCG-Life-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TCG Life Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FC8CCEC1C0F50BA003DAB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TCG Life CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yes.TCG-Life-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TCG Life Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC8CCB71C0F50BA003DAB8E /* Build configuration list for PBXProject "TCG Life Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC8CCE21C0F50BA003DAB8E /* Debug */,
+				3FC8CCE31C0F50BA003DAB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC8CCE41C0F50BA003DAB8E /* Build configuration list for PBXNativeTarget "TCG Life Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC8CCE51C0F50BA003DAB8E /* Debug */,
+				3FC8CCE61C0F50BA003DAB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC8CCE71C0F50BA003DAB8E /* Build configuration list for PBXNativeTarget "TCG Life CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC8CCE81C0F50BA003DAB8E /* Debug */,
+				3FC8CCE91C0F50BA003DAB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC8CCEA1C0F50BA003DAB8E /* Build configuration list for PBXNativeTarget "TCG Life CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC8CCEB1C0F50BA003DAB8E /* Debug */,
+				3FC8CCEC1C0F50BA003DAB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC8CCB41C0F50BA003DAB8E /* Project object */;
+}
